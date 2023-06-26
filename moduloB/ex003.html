@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa...</title>
+    <style>
+        body {
+            background-color: #280b44;
+            color: #ffffff; /*comentário em CSS*/
+            font-family: Arial, Helvetica, sans-serif;
+            font: normal 15pt Arial;
+        }
+        h1 {
+            font-size: 30pt;
+            color: #911414;
+            text-shadow: 1px 1px 1px #000000;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello, world!</h1> <!--Comentário em HTML-->
+    <p>Já me livrei da maldição!!!</p>
+    <script>
+        var n1 = Number(window.prompt("Digite um número: ")) // Numberserve para converter o número para um número qualquer, seja inteiro, seja float. Caso tenha sido utilizado somente "windows.prompt", haveria uma concatenação de strings
+        var n2 = Number(window.prompt("Digite outro número"))
+        var soma = n1 + n2 
+        
+        window.alert(`A soma entre ${n1} e ${n2} é ${soma}`)
+        // ${} é um "place holder e é possível utilizá-lo com ``"
+
+    </script>
+</body>
+</html>
